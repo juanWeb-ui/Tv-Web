@@ -1,0 +1,665 @@
+<!DOCTYPE html>
+<htm lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=divice-width,initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Pagina Principal | TV Web</title>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Oswald:wght@200&display=swap" rel="stylesheet">
+        <link href="css/style.css" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="css/video-js.css">
+        <script src="js/video.js"></script>
+        <script src="https://kit.fontawesome.com/0508ca4397.js" crossorigin="anonymous"></script>
+        <script src="js/jquery-3.5.1.js"></script>
+        <script src="js/script.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="http://netna.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+        <link href="css/starrr.css" rel="stylesheet" >
+        <script src="js/starrr.js"></script>
+    </head>
+
+    <body>
+        <script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_ES/sdk.js#xfbml=1&version=v7.0" nonce="1D8I2J27"></script>
+        <div class="contenedor">
+            <header class="header">
+                <div class="contenedor-logo">                
+                    <a href="#" class="logo"><i class="fab fa-youtube"></i><font size=8>Tv Web</font></a>
+                </div>
+
+                <div class="barra-busqueda">
+                    <input type="text" placeholder=" Buscar.....">
+                    <button type="submit"><i class="fas fa-search"></i></button>
+                </div>
+                
+                <div class="botones-header">
+                    <button><i class="fas fa-upload"></i></button>
+                    <button><i class="fas fa-th"></i></button>
+                    <button><i class="fas fa-bell"></i></button>                  
+                </div>
+            </header>
+            <div id="fb-root"></div>
+            <div class="category_list">
+                <p>CATEGORIAS</p>
+                <hr>
+                <a href="#" class="category_item" category="all">Todo</a>
+                <hr>
+                <a href="#" class="category_item" category="terror">Terror</a>
+                <hr>
+                <a href="#" class="category_item" category="comedia">Comedia</a>
+                <hr>
+                <a href="#" class="category_item" category="accion">Accion</a>
+                <hr>
+                <a href="#" class="category_item" category="anime">Animes</a>                
+                <hr>
+                <a href="#" class="category_item" category="romance">Romance</a>                
+                <hr>
+            </div>
+            <main class="main">                        
+                <div class="grid-Videos">   
+                    <div class="video" category="romance" ><img src="imagenes/el dia que vendra.png"  alt="" width="400" height="341" title="El dia que vendra">
+                        <a href="#" class="nameMovie" nameMovies="el-dia-que-vendra">El dia que vendra</a></div>
+                    <div class="video" category="romance"><img src="imagenes/un amor para siempre.jpg"  alt="" width="400" height="341" title="Un amor para siempre.">
+                        <a href="#"  class="nameMovie" nameMovies="un-amor-para-siempre">Un amor para siempre</a></div>
+                    <div class="video" category="terror" ><img src="imagenes/conjuro.jpg"  alt="" width="400" height="341" title="El conjuro II.">
+                        <a href="#"  class="nameMovie" nameMovies="el-conjuro">El conjuro II</a></div>                                 
+                    <div class="video" category="anime"><img src="imagenes/drango ball super - la resureccion de frezzer.jpg"  alt="" width="400" height="341" title="">
+                        <a href="#"  class="nameMovie" nameMovies="DBZ-frezzer"> Dragon ball Z - La resurreccion de frezzer</a></div>
+                    <div class="video" category="terror"><img src="imagenes/annabelle.jpg"  alt="" width="400" height="341" title="Annabelle II.">
+                        <a href="#"  class="nameMovie" nameMovies="annabelleII">Annabelle II</a></div>
+                    <div class="video" category="terror"><img src="imagenes/crawl.jpg"  alt="" width="400" height="341" title="crawl.">
+                        <a href="#"  class="nameMovie" nameMovies="crawl">Crawl</a></div>
+                    <div class="video" category="accion"><img src="imagenes/dead pool.jpg"  alt="" width="400" height="341" title="Dead Pool.">
+                        <a href="#"  class="nameMovie" nameMovies="dead-pool">Dead Pool</a></div>
+                    <div class="video" category="terror"><img src="imagenes/llorona.jpg"  alt="" width="400" height="341" title="La llorona.">
+                        <a href="#"  class="nameMovie" nameMovies="la-llorona">La llorona</a></div>                
+                    <div class="video" category="comedia"><img src="imagenes/hombre al agua.jpg"  alt="" width="400" height="341" title="Hombre al agua.">
+                        <a href="#"  class="nameMovie" nameMovies="hombre-al-agua">Hombre al agua</a></div>
+                    <div class="video" category="comedia"><img src="imagenes/mamma mia.jpg"  alt="" width="400" height="341" title="mamma mia.">
+                        <a href="#"  class="nameMovie" nameMovies="mamma-mia">Mamma mia</a></div>
+                    <div class="video" category="comedia"><img src="imagenes/Sexi por accidente.jpg"  alt="" width="400" height="341" title="Sexi por accidente.">
+                        <a href="#"  class="nameMovie" nameMovies="sexi-por-accidente">Sexi por accidente</a></div>                
+                    <div class="video" category="comedia"><img src="imagenes/Mi primera boda.jpg"  alt="" width="400" height="341" title="Mi primera boda.">
+                        <a href="#"  class="nameMovie" nameMovies="mi-primera-boda">Mi primera boda</a></div>                    
+                    <div class="video" category="romance"><img src="imagenes/vida oculta.jpg"  alt="" width="400" height="341" title="Vida oculta.">
+                        <a href="#"  class="nameMovie" nameMovies="vida-oculta">Vida oculta</a></div>
+                    <div class="video" category="terror"><img src="imagenes/cumbre.jpg"  alt="" width="400" height="341" title="cumbre.">
+                        <a href="#"  class="nameMovie" nameMovies="la-cumbre-escarlata">La cumbre escarlata</a></div>
+                    <div class="video" category="romance"><img src="imagenes/agua para elefantes.jpg"  alt="" width="400" height="341" title="Agua para elefantes.">
+                        <a href="#"  class="nameMovie" nameMovies="agua-para-elefantes">Agua para elefantes</a></div>
+                    <div class="video" category="romance"><img src="imagenes/amor a media noche.jpg"  alt="" width="400" height="341" title="Amor a media noche.">
+                        <a href="#"  class="nameMovie" nameMovies="amor-a-media-noche">Amor a media noche</a></div>
+                    <div class="video" category="accion"><img src="imagenes/capitana marvel.jpg"  alt="" width="400" height="341" title="Capitana marvel.">
+                        <a href="#"  class="nameMovie" nameMovies="capitana-marvel">Capitana marvel</a></div>                    
+                    <div class="video" category="accion"><img src="imagenes/end game.jpg"  alt="" width="400" height="341" title="End game.">
+                        <a href="#"  class="nameMovie" nameMovies="end-game">Avengers End game</a></div>
+                    <div class="video" category="accion"><img src="imagenes/guardianes de la galaxia.jpg"  alt="" width="400" height="341" title="Guardianes de la galaxia.">
+                        <a href="#"  class="nameMovie" nameMovies="guardianes-de-la-galaxia">Guardianes de la galaxia</a></div>
+                    <div class="video" category="accion"><img src="imagenes/infinity war.jpg"  alt="" width="400" height="341" title="Infinity war.">
+                        <a href="#"  class="nameMovie" nameMovies="infinity-war">Avengers Infinity war</a></div>
+                    <div class="video" category="accion"><img src="imagenes/vengadores.jpg"  alt="" width="400" height="341" title="Los vengadores.">
+                        <a href="#"  class="nameMovie" nameMovies="los-vengadores">The Avengers</a></div>
+                    <div class="video" category="accion"><img src="imagenes/viuda negra.jpg"  alt="" width="400" height="341" title="Viuda negra.">
+                        <a href="#"  class="nameMovie" nameMovies="viuda-negra">La viuda negra</a></div>
+                    <div class="video" category="comedia"><img src="imagenes/Que pena de boda.jpg"  alt="" width="400" height="341" title="Que pena de boda.">
+                        <a href="#"  class="nameMovie" nameMovies="que-pena-de-mi-boda">Que pena de mi boda</a></div>
+                    <div class="video" category="anime"><img src="imagenes/drango ball super - batalla de los dioses.jpg"  alt="" width="400" height="341" title="">
+                        <a href="#"  class="nameMovie" nameMovies="DBZ-dioses">Dragon ball Z - La batalla de los dioses</a></div>
+                    <div class="video" category="anime" ><img src="imagenes/drango ball super - broly.jpg"  alt="" width="400" height="341" title="">
+                        <a href="#"  class="nameMovie" nameMovies="DBZ-broly">Dragon ball z - Broly</a></div>
+                   
+                </div>
+                <hr>
+                <div class="grid-movies" nameMovies="viuda-negra">
+                    <div class="mv" >
+                        <div class="grid-descripcion">
+                            <div class="imganen">
+                               <img src="imagenes/viuda negra.jpg"  alt="" width="250" height="400" title="">                              
+                            </div>
+                            <div class="sim">
+                                <h3>Titulo:</h3>
+                                <a>Viuda negra</a>
+                                Calificar: <div id="Estrella"></div>
+                                <h3>Sinopsis:</h3>
+                                <a>                                                                                                                                                                           
+                                    Al nacer, la Viuda Negra, también conocida como Natasha Romanova, se entrega a la KGB para convertirse en su agente definitivo. Cuando la URSS se separa, el gobierno intenta matarla mientras la acción se traslada a la actual Nueva York.
+                                </a>
+                                
+                            </div>                            
+                        </div>
+                        <video class="mivideopp" width="100%" controls>                            
+                            <source src="movies/Viuda Negra (2020) Marvel Tráiler Oficial Español ( 720 X 1280 ).mp4" type="video/mp4">
+                        </video>   
+                        <div class="fb-comments" data-href="https://developers.facebook.com/docs/plugins/comments#configurator" data-numposts="1" data-width=""></div> 
+                    </div>                    
+                </div>
+                <div class="grid-movies" nameMovies="los-vengadores">
+                    <div class="mv" >
+                        <div class="grid-descripcion">
+                            <div class="imganen">
+                               <img src="imagenes/vengadores.jpg"  alt="" width="250" height="400" title="">                              
+                            </div>
+                            <div class="sim">
+                                <h3>Titulo:</h3>
+                                <a>Los vengadores</a>
+                                Calificar: <div id="Estrella"></div>
+                                <h3>Sinopsis:</h3>
+                                <a>                                                                                                                                       
+                                    El director de la Agencia SHIELD decide reclutar a un equipo para salvar al mundo de un desastre casi seguro cuando un enemigo inesperado surge como una gran amenaza para la seguridad mundial.
+                                </a>
+                                
+                            </div>                            
+                        </div>
+                        <video width="100%" controls>                            
+                            <source src="movies/Los Vengadores de Marvel _ Tráiler Oficial en Español _ HD ( 690 X 1280 ).mp4" type="video/mp4">
+                        </video>    
+                    </div>                    
+                </div>
+                <div class="grid-movies" nameMovies="capitana-marvel">
+                    <div class="mv" >
+                        <div class="grid-descripcion">
+                            <div class="imganen">
+                               <img src="imagenes/capitana marvel.jpg"  alt="" width="250" height="400" title="">                              
+                            </div>
+                            <div class="sim">
+                                <h3>Titulo:</h3>
+                                <a>Capitana marvel</a>
+                                Calificar: <div id="Estrella"></div>
+                                <h3>Sinopsis:</h3>
+                                <a>                                                                                                                                       
+                                    Una guerrera extraterrestre de la civilización Kree se encuentra atrapada en medio de una batalla. Con la ayuda de Nick Fury trata de descubrir los secretos de su pasado mientras aprovecha sus poderes para terminar la guerra.
+                                </a>
+                                
+                            </div>                            
+                        </div>
+                        <video width="100%" controls>                            
+                            <source src="movies/Capitana Marvel, de Marvel Studios – Tráiler Oficial - 1 ( 798 X 1920 ).mp4" type="video/mp4">
+                        </video>    
+                    </div>                    
+                </div>
+                <div class="grid-movies" nameMovies="amor-a-media-noche">
+                    <div class="mv" >
+                        <div class="grid-descripcion">
+                            <div class="imganen">
+                               <img src="imagenes/amor a media noche.jpg"  alt="" width="250" height="400" title="">                              
+                            </div>
+                            <div class="sim">
+                                <h3>Titulo:</h3>
+                                <a>Amor a media noche</a>
+                                Calificar: <div id="Estrella"></div>
+                                <h3>Sinopsis:</h3>
+                                <a>                                                                                                                                       
+                                    Una adolescente que moriría si se expusiera a la luz vive un romance de verano con el chico del que lleva años enamorada. A medida que su relación se afianza, ella busca maneras de ocultarle la enfermedad que padece.
+                                </a>
+                                
+                            </div>                            
+                        </div>
+                        <video width="100%" controls>                            
+                            <source src="movies/Amor a medianoche - Tráiler español (HD) ( 720 X 1280 ).mp4" type="video/mp4">
+                        </video>    
+                    </div>                    
+                </div>
+                <div class="grid-movies" nameMovies="agua-para-elefantes">
+                    <div class="mv" >
+                        <div class="grid-descripcion">
+                            <div class="imganen">
+                               <img src="imagenes/agua para elefantes.jpg"  alt="" width="250" height="400" title="">                              
+                            </div>
+                            <div class="sim">
+                                <h3>Titulo:</h3>
+                                <a>Agua para elefantes</a>
+                                Calificar: <div id="Estrella"></div>
+                                <h3>Sinopsis:</h3>
+                                <a>                                                                                                                                       
+                                    Un estudiante de medicina veterinaria, se encuentra cerca de graduarse, pero una terrible tragedia le obliga a abandonar la escuela.
+                                </a>
+                                
+                            </div>                            
+                        </div>
+                        <video width="100%" controls>                            
+                            <source src="movies/Trailer de _Agua para elefantes_ ( 720 X 1280 ).mp4" type="video/mp4">
+                        </video>    
+                    </div>                    
+                </div>
+                <div class="grid-movies" nameMovies="la-cumbre-escarlata">
+                    <div class="mv" >
+                        <div class="grid-descripcion">
+                            <div class="imganen">
+                               <img src="imagenes/cumbre.jpg"  alt="" width="250" height="400" title="">                              
+                            </div>
+                            <div class="sim">
+                                <h3>Titulo:</h3>
+                                <a>La cumbre escarlata</a>
+                                Calificar: <div id="Estrella"></div>
+                                <h3>Sinopsis:</h3>
+                                <a>                                                                                                                                       
+                                    Todo ocurre en Inglaterra durante el siglo XIX. Edith es una joven recién casada con sir Thomas, un hombre encantador. Edith se traslada a la mansión que la familia de él posee en Cumbria, región del norte de Inglaterra, y allí, Edith, que es capaz de hablar con los muertos, descubre que su esposo y la hermana de este, Lady Lucille, esconden un sombrío secreto; y además, que las casas embrujadas no sólo existen en las novelas, porque la que ella habita, respira, sangra... y nunca olvida.
+                                </a>
+                                
+                            </div>                            
+                        </div>
+                        <video width="100%" controls>                            
+                            <source src="movies/LA CUMBRE ESCARLATA - Tráiler Internacional HD ( 720 X 1280 ).mp4" type="video/mp4">
+                        </video>    
+                    </div>                    
+                </div>
+                <div class="grid-movies" nameMovies="vida-oculta">
+                    <div class="mv" >
+                        <div class="grid-descripcion">
+                            <div class="imganen">
+                               <img src="imagenes/vida oculta.jpg"  alt="" width="250" height="400" title="">                              
+                            </div>
+                            <div class="sim">
+                                <h3>Titulo:</h3>
+                                <a>Vida oculta</a>
+                                Calificar: <div id="Estrella"></div>
+                                <h3>Sinopsis:</h3>
+                                <a>                                                                                                                                       
+                                    La historia del austriaco Franz Jägerstätter, objetor de conciencia, que se negó a luchar para los nazis durante la Segunda Guerra Mundial y acabó siendo ejecutado por ellos en 1943. Franz fue declarado mártir y beatificado por la Iglesia.
+                                </a>
+                                
+                            </div>                            
+                        </div>
+                        <video width="100%" controls>                            
+                            <source src="movies/Vida oculta - Trailer español (HD) ( 720 X 1280 ).mp4" type="video/mp4">
+                        </video>    
+                    </div>                    
+                </div>
+                <div class="grid-movies" nameMovies="dead-pool">
+                    <div class="mv" >
+                        <div class="grid-descripcion">
+                            <div class="imganen">
+                               <img src="imagenes/dead pool.jpg"  alt="" width="250" height="400" title="">                              
+                            </div>
+                            <div class="sim">
+                                <h3>Titulo:</h3>
+                                <a>Dead Pool</a>
+                                Calificar: <div id="Estrella"></div>
+                                <h3>Sinopsis:</h3>
+                                <a>                                                                                                                                       
+                                    Un exmercenario quien, tras haber sido sometido a un cruel experimento, adquiere el superpoder de sanar rápidamente y pretende vengarse del hombre que destrozó su vida.
+                                </a>
+                                
+                            </div>                            
+                        </div>
+                        <video width="100%" controls>                            
+                            <source src="movies/Deadpool _ Teaser Trailer Oficial _ Doblado ( 720 X 1280 ).mp4" type="video/mp4">
+                        </video>    
+                    </div>                    
+                </div>
+                <div class="grid-movies" nameMovies="crawl">
+                    <div class="mv" >
+                        <div class="grid-descripcion">
+                            <div class="imganen">
+                               <img src="imagenes/crawl.jpg"  alt="" width="250" height="400" title="">                              
+                            </div>
+                            <div class="sim">
+                                <h3>Titulo:</h3>
+                                <a>Crawl</a>
+                                Calificar: <div id="Estrella"></div>
+                                <h3>Sinopsis:</h3>
+                                <a>                                                                                                                                       
+                                    Una mujer intenta salvar a su padre que queda atrapado en Florida durante un huracán de categoría 5. Durante su aventura, ambos se quedan atrapados en una casa que se inunda y que invaden una serie de salvajes depredadores.
+                                </a>
+                                
+                            </div>                            
+                        </div>
+                        <video width="100%" controls>                            
+                            <source src="movies/Crawl (2019) – Official Trailer – Paramount Pictures ( 720 X 1280 ).mp4" type="video/mp4">
+                        </video>    
+                    </div>                    
+                </div>
+                <div class="grid-movies" nameMovies="annabelleII">
+                    <div class="mv" >
+                        <div class="grid-descripcion">
+                            <div class="imganen">
+                               <img src="imagenes/annabelle.jpg"  alt="" width="250" height="400" title="">                              
+                            </div>
+                            <div class="sim">
+                                <h3>Titulo:</h3>
+                                <a>Annabelle</a>
+                                Calificar: <div id="Estrella"></div>
+                                <h3>Sinopsis:</h3>
+                                <a>                                                                                                                                       
+                                    John Form encuentra el regalo perfecto para Mia, su esposa embarazada: una preciosa muñeca antigua llamada Annabelle. Una noche, una secta satánica les ataca brutalmente y provocan que un ente maligno se apodere de Annabelle.
+                                </a>
+                                
+                            </div>                            
+                        </div>
+                        <video width="100%" controls>                            
+                            <source src="movies/Annabelle - Tráiler Oficial en español HD ( 720 X 1280 ).mp4" type="video/mp4">
+                        </video>    
+                    </div>                    
+                </div>
+                <div class="grid-movies" nameMovies="DBZ-frezzer">
+                    <div class="mv" >
+                        <div class="grid-descripcion">
+                            <div class="imganen">
+                               <img src="imagenes/drango ball super - la resureccion de frezzer.jpg"  alt="" width="250" height="400" title="">                              
+                            </div>
+                            <div class="sim">
+                                <h3>Titulo:</h3>
+                                <a>Dragon Ball Z - La resureccion de frezzer</a>
+                                Calificar: <div id="Estrella"></div>
+                                <h3>Sinopsis:</h3>
+                                <a>                                                                                                                                       
+                                    Los Peleadores Z deben contender con Bills, el Dios de la Destrucción. Pero se necesita un dios para luchar contra un dios, y ninguno de ellos lo es... ni siquiera los Saiyans.
+                                </a>
+                                
+                            </div>                            
+                        </div>
+                        <video width="100%" controls>                            
+                            <source src="movies/Dragon Ball Z La Resurrección de Freezer _ Trailer Doblado al Español (HD) ( 720 X 1280 ).mp4" type="video/mp4">
+                        </video>    
+                    </div>                    
+                </div>
+                <div class="grid-movies" nameMovies="el-conjuro">
+                    <div class="mv" >
+                        <div class="grid-descripcion">
+                            <div class="imganen">
+                               <img src="imagenes/conjuro.jpg"  alt="" width="250" height="400" title="">                              
+                            </div>
+                            <div class="sim">
+                                <h3>Titulo:</h3>
+                                <a>El conjuro II</a>
+                                Calificar: <div id="Estrella"></div>
+                                <h3>Sinopsis:</h3>
+                                <a>                                                                                                       
+                                    Ed y Lorraine Warren, renombrados demonólogos e investigadores de lo paranormal, se enfrentan de nuevo a las fuerzas infernales. En esta ocasión, viajan hasta el norte de Londres para tratar de ayudar a una madre y sus cuatro hijos, quienes habitan en una casa plagada de espíritus malignos.
+                                </a>
+                                
+                            </div>                            
+                        </div>
+                        <video width="100%" controls>                            
+                            <source src="movies/EL CONJURO 2 - Trailer 2 (Doblado) - Oficial Warner Bros. Pictures ( 720 X 1280 ).mp4" type="video/mp4">
+                        </video>    
+                    </div>                    
+                </div>
+                <div class="grid-movies" nameMovies="el-dia-que-vendra">
+                    <div class="mv" >
+                        <div class="grid-descripcion">
+                            <div class="imganen">
+                               <img src="imagenes/el dia que vendra.png"  alt="" width="250" height="400" title="">                              
+                            </div>
+                            <div class="sim">
+                                <h3>Titulo:</h3>
+                                <a>El dia que vendra</a>
+                                Calificar: <div id="Estrella"></div>
+                                <h3>Sinopsis:</h3>
+                                <a>                                                                                                       
+                                    EL DÍA QUE VENDRÁ está ambientada en la Alemania de posguerra de 1946. Rachael Morgan (Keira Knightley) aterriza en las ruinas de Hamburgo en pleno invierno para reunirse con su marido, Lewis (Jason Clarke), un coronel británico que recibe la misión de reconstruir la ciudad destruida.
+                                </a>
+                                
+                            </div>                            
+                        </div>
+                        <video width="100%" controls>                            
+                            <source src="movies/El día que vendrá - Trailer español (HD) ( 720 X 1280 ).mp4" type="video/mp4">
+                        </video>    
+                    </div>                    
+                </div>
+                <div class="grid-movies" nameMovies="un-amor-para-siempre">
+                    <div class="mv" >
+                        <div class="grid-descripcion">
+                            <div class="imganen">
+                               <img src="imagenes/un amor para siempre.jpg"  alt="" width="250" height="400" title="">                              
+                            </div>
+                            <div class="sim">
+                                <h3>Titulo:</h3>
+                                <a>Un amor para siempre</a>
+                                Calificar: <div id="Estrella"></div>
+                                <h3>Sinopsis:</h3>
+                                <a>                                                                    
+                                    Una estrella de la música country regresa a su ciudad natal para asistir al funeral de su mejor amigo de la escuela secundaria. Allí se reencuentra con la mujer a la que abandonó en el altar por perseguir su sueño de convertirse en una celebridad.
+                                </a>
+                                
+                            </div>                            
+                        </div>
+                        <video width="100%" controls>                            
+                            <source src="movies/POR SIEMPRE MÍA (FOREVER MY GIRL) (TRÁILER OFICIAL) (SIN SUBTÍTULOS) (1080P HD) ( 720 X 1280 ).mp4" type="video/mp4">
+                        </video>    
+                    </div>                    
+                </div>
+                <div class="grid-movies" nameMovies="sexi-por-accidente">
+                    <div class="mv" >
+                        <div class="grid-descripcion">
+                            <div class="imganen">
+                               <img src="imagenes/Sexi por accidente.jpg"  alt="" width="250" height="400" title="">                              
+                            </div>
+                            <div class="sim">
+                                <h3>Titulo:</h3>
+                                <a>Sexi por accidente</a>
+                                Calificar: <div id="Estrella"></div>
+                                <h3>Sinopsis:</h3>
+                                <a>                                                                    
+                                    Renee es una mujer corriente, llena de inseguridades. Después de golpearse en la cabeza, cuando despierta está convencida de que es la mujer más guapa del mundo. Ahora que su autoestima está por las nubes, siente que puede lograr lo que se proponga.
+                                </a>
+                                
+                            </div>                            
+                        </div>
+                        <video width="100%" controls>                            
+                            <source src="movies/Sexy Por Accidente (I Feel Pretty) - Trailer Español Latino 2018 ( 720 X 1280 ).mp4" type="video/mp4">
+                        </video>    
+                    </div>                    
+                </div>
+                <div class="grid-movies" nameMovies="que-pena-de-mi-boda">
+                    <div class="mv" >
+                        <div class="grid-descripcion">
+                            <div class="imganen">
+                               <img src="imagenes/Que pena de boda.jpg"  alt="" width="250" height="400" title="">                              
+                            </div>
+                            <div class="sim">
+                                <h3>Titulo:</h3>
+                                <a>Que pena de mi boda</a>
+                                Calificar: <div id="Estrella"></div>
+                                <h3>Sinopsis:</h3>
+                                <a>                                                                    
+                                    Javier y Ángela son una pareja estable. Su círculo de amigos está casándose a alta velocidad, pero a él no le gusta la idea de sentar la cabeza. Pero cuando Ángela queda embarazada, Javier quiere casarse. La cosa se complica cuando el chico empieza a ser provocado por la sensual hija de su jefe, Lucía.
+                                    Continuación de "Qué pena es tu vida", película dirigida y escrita también por el chileno Nicolás López. El éxito de las dos partes dio lugar a una tercera entrega, titulada "Qué pena tu familia", estrenada en 2013.
+                                    En esta comedia romántica, el protagonismo vuelve a recaer en la relación de Javier y Ángela, personajes interpretados nuevamente por Ariel Levy y Andrea Velasco.
+                                </a>
+                                
+                            </div>                            
+                        </div>
+                        <video width="100%" controls>                            
+                            <source src="movies/Que Pena Tu Boda _ Trailer Oficial Español _ FULL HD _ ( 720 X 1280 ).mp4" type="video/mp4">
+                        </video>    
+                    </div>                    
+                </div>
+                <div class="grid-movies" nameMovies="mi-primera-boda">
+                    <div class="mv" >
+                        <div class="grid-descripcion">
+                            <div class="imganen">
+                               <img src="imagenes/Mi primera boda.jpg"  alt="" width="250" height="400" title="">                              
+                            </div>
+                            <div class="sim">
+                                <h3>Titulo:</h3>
+                                <a>Mi primera boda</a>
+                                Calificar: <div id="Estrella"></div>
+                                <h3>Sinopsis:</h3>
+                                <a>                                                                    
+                                    Un novio nervioso intenta desesperadamente retrasar la ceremonia después de que él pierde ambos anillos durante su boda con su novia malhumorada.
+                                </a>
+                                
+                            </div>                            
+                        </div>
+                        <video width="100%" controls>                            
+                            <source src="movies/Mi Primera Boda (Trailer) ( 360 X 640 ).mp4" type="video/mp4">
+                        </video>    
+                    </div>                    
+                </div>
+                <div class="grid-movies" nameMovies="mamma-mia">
+                    <div class="mv" >
+                        <div class="grid-descripcion">
+                            <div class="imganen">
+                               <img src="imagenes/mamma mia.jpg"  alt="" width="250" height="400" title="">                              
+                            </div>
+                            <div class="sim">
+                                <h3>Titulo:</h3>
+                                <a>Mamma mia</a>
+                                Calificar: <div id="Estrella"></div>
+                                <h3>Sinopsis:</h3>
+                                <a>                                
+                                    Una estrella de la música country regresa a su ciudad natal para asistir al funeral de su mejor amigo de la escuela secundaria. Allí se reencuentra con la mujer a la que abandonó en el altar por perseguir su sueño de convertirse en una celebridad.
+                                </a>
+                                
+                            </div>                            
+                        </div>
+                        <video width="100%" controls>                            
+                            <source src="movies/Mamma Mia!2_ Una y otra vez (2018) Primer Tráiler Oficial Español ( 720 X 1280 ).mp4" type="video/mp4">
+                        </video>    
+                    </div>                    
+                </div>
+                <div class="grid-movies" nameMovies="la-llorona">
+                    <div class="mv" >
+                        <div class="grid-descripcion">
+                            <div class="imganen">
+                               <img src="imagenes/llorona.jpg"  alt="" width="250" height="400" title="">                              
+                            </div>
+                            <div class="sim">
+                                <h3>Titulo:</h3>
+                                <a>La llorona</a>
+                                Calificar: <div id="Estrella"></div>
+                                <h3>Sinopsis:</h3>
+                                <a>                                
+                                    La Llorona es una aparición tenebrosa, atrapada entre el cielo y el infierno, con un destino terrible sellado por su propia mano. La mera mención de esta terrorífica leyenda mexicana ha causado terror durante generaciones. En vida, ahogó a sus hijos llena de rabia, por celos, arrojándose en el río tras ver l que había hecho. Ahora sus lágrimas son eternas y letales, y aquellos que escuchan su llamada de muerte en la noche están condenados. Se arrastra en las sombras y ataca a los niños, desesperada por reemplazar a los suyos. A medida que los siglos han pasado, su deseo se ha vuelto más voraz y sus métodos más terroríficos. (FILMAFFINITY)
+                                </a>
+                                
+                            </div>                            
+                        </div>
+                        <video width="100%" controls>                            
+                            <source src="movies/LA LLORONA Tráiler Español DOBLADO (Terror, 2019) ( 720 X 1280 ).mp4" type="video/mp4">
+                        </video>    
+                    </div>                    
+                </div>
+                <div class="grid-movies" nameMovies="guardianes-de-la-galaxia">
+                    <div class="mv" >
+                        <div class="grid-descripcion">
+                            <div class="imganen">
+                               <img src="imagenes/guardianes de la galaxia.jpg"  alt="" width="250" height="400" title="">                              
+                            </div>
+                            <div class="sim">
+                                <h3>Titulo:</h3>
+                                <a>Guardianes de la galaxia</a>
+                                Calificar: <div id="Estrella"></div>
+                                <h3>Sinopsis:</h3>
+                                <a>                                
+                                    Un aventurero espacial se convierte en la presa de unos cazadores de tesoros después de robar el orbe de un villano traicionero. Cuando descubre su poder, debe hallar la forma de unir a unos rivales para salvar al universo.
+                                </a>
+                                
+                            </div>                            
+                        </div>
+                        <video width="100%" controls>                            
+                            <source src="movies/Guardianes de la Galaxia tráiler  -- Oficial (Doblado) ( 800 X 1920 ).mp4" type="video/mp4">
+                        </video>    
+                    </div>                    
+                </div> 
+                <div class="grid-movies" nameMovies="infinity-war">
+                    <div class="mv" >
+                        <div class="grid-descripcion">
+                            <div class="imganen">
+                               <img src="imagenes/infinity war.jpg"  alt="" width="250" height="400" title="">                              
+                            </div>
+                            <div class="sim">
+                                <h3>Titulo:</h3>
+                                <a>Avengers - infinity war</a>
+                                Calificar: <div id="Estrella"></div>
+                                <h3>Sinopsis:</h3>
+                                <a>
+                                    Los superhéroes se alían para vencer al poderoso Thanos, el peor enemigo al que se han enfrentado. Si Thanos logra reunir las seis gemas del infinito: poder, tiempo, alma, realidad, mente y espacio, nadie podrá detenerlo.
+                                </a>
+                                
+                            </div>                            
+                        </div>
+                        <video width="100%" controls>                            
+                            <source src="https://youtu.be/6ZfuNTqbHE8" type="video/mp4">
+                        </video>    
+                    </div>                    
+                </div> 
+                <div class="grid-movies" nameMovies="hombre-al-agua">
+                    <div class="mv" >
+                        <div class="grid-descripcion">
+                            <div class="imganen">
+                               <img src="imagenes/hombre al agua.jpg"  alt="" width="250" height="400" title="">                              
+                            </div>
+                            <div class="sim">
+                                <h3>Titulo:</h3>
+                                <a>Hombre al agua</a>
+                                Calificar: <div id="Estrella"></div>
+                                <h3>Sinopsis:</h3>
+                                <a>
+                                    Leonardo, un millonario mexicano egoísta y caprichoso, despide a Kate, una madre soltera sin recursos. Poco después, el hombre pierde la memoria al caer por la borda de su yate y ella se venga haciéndole creer que es su esposo.</a>
+                                
+                            </div>                            
+                        </div>
+                        <video width="100%" controls>                            
+                            <source src="movies/Hombre al agua - Tráiler Oficial ( 720 X 1280 ).mp4" type="video/mp4">
+                        </video>    
+                    </div>                    
+                </div> 
+                <div class="grid-movies" nameMovies="DBZ-broly">
+                    <div class="mv" >
+                        <div class="grid-descripcion">
+                            <div class="imganen">
+                               <img src="imagenes/drango ball super - broly.jpg"  alt="" width="250" height="400" title="">                              
+                            </div>
+                            <div class="sim">
+                                <h3>Titulo:</h3>
+                                <a>Dragon Ball Super - Broly</a>
+                                Calificar: <div id="Estrella"></div>
+                                <h3>Sinopsis:</h3>
+                                <a>La paz ha regresado una vez más a la Tierra tras el Torneo de Poder. Al descubrir que en los diferentes universos hay seres increíblemente poderosos que aún no ha visto, Goku tiene intención de seguir entrenando para hacerse aún más fuerte. Entonces, un día, un saiyan llamado Broly al que nunca antes han visto se presenta ante Goku y Vegeta.</a>    
+                                
+                            </div>                            
+                        </div>
+                        <video width="100%" controls>                            
+                            <source src="movies/Dragon Ball Super_ Broly - Tráiler (Sub. Español) ( 720 X 1280 ).mp4" type="video/mp4">
+                        </video>    
+                    </div>                    
+                </div>   
+                <div class="grid-movies" nameMovies="DBZ-dioses">
+                    <div class="mv" >
+                        <div class="grid-descripcion">
+                            <div class="imganen">
+                               <img src="imagenes/drango ball super - batalla de los dioses.jpg"  alt="" width="250" height="400" title="">                              
+                            </div>
+                            <div class="sim">
+                                <h3>Titulo:</h3>
+                                <a>Dragon Ball Super - La batalla de los dioses</a>
+                                Calificar: <div id="Estrella"></div>
+                                <h3>Sinopsis:</h3>
+                                <a>Los Peleadores Z deben contender con Bills, el Dios de la Destrucción. Pero se necesita un dios para luchar contra un dios, y ninguno de ellos lo es... ni siquiera los Saiyans.</a>                    
+                                
+                            </div>                            
+                        </div>
+                        <video width="100%" controls>                            
+                            <source src="movies/DRAGON BALL Z_ LA BATALLA DE LOS DIOSES ( 720 X 1280 ).mp4" type="video/mp4">
+                        </video>    
+                    </div>                    
+                </div>  
+                <div class="grid-movies" nameMovies="end-game">
+                    <div class="mv" >
+                        <div class="grid-descripcion">
+                            <div class="imganen">
+                               <img src="imagenes/end game.jpg"  alt="" width="250" height="400" title="">                              
+                            </div>
+                            <div class="sim">
+                                <h3>Titulo:</h3>
+                                <a>Avengers - End game</a>
+                                Calificar: <div id="Estrella"></div>
+                                <h3>Sinopsis:</h3>
+                                <a>Los Vengadores restantes deben encontrar una manera de recuperar a sus aliados para un enfrentamiento épico con Thanos, el malvado que diezmó el planeta y el universo.</a>>
+
+                                
+                            </div>                            
+                        </div>
+                        <video width="100%" controls>                            
+                            <source src="movies/Avengers_ Endgame (Tráiler Final _ Dob Español Latino) _ DubZoneLA ( 720 X 1280 ).mp4" type="video/mp4">
+                        </video>    
+                    </div>                    
+                </div>              
+            </main>
+        </div>
+        <script>
+            $('#Estrella').starr();
+        </script>
+    </body>
+</html>
