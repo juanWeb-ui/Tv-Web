@@ -1,0 +1,42 @@
+Estudiante: Juan Pablo Montecinos Gomez
+Docente:Vladimir Costas
+Materia: PRogramacion Web
+
+--------------------install--------------------------------------
+1. abrir el archivo index.html
+2. seleccionar alguna categoria o selecionar algun video en particular.
+3. para realizar comentarios debe iniciar una sesion con face book
+4. para valorar solo necesita puntuar en la estanacia de calificacion con estrellas(1 a 5)
+
+****Inoconveniente****
+El proyecto que esta en el repositoria carece de videos ya que este en su contenido se importaba
+desde una carpeta local y generaba mucho espacio. Los videos son traileres de las peliculas originales
+descargada de www.youtube.com
+-Amor a medianoche - Tráiler español (HD) ( 720 X 1280 )
+-Annabelle - Tráiler Oficial en español HD ( 720 X 1280 )
+-Avengers_ Endgame (Tráiler Final _ Dob Español Latino) _ DubZoneLA ( 720 X 1280 )
+-Avengers_ Infinity War (Tráiler 1 _ Dob Español Latino) _ DubZoneLA ( 720 X 1280 )
+-Capitana Marvel, de Marvel Studios – Tráiler Oficial - 1 ( 798 X 1920 )
+-Crawl (2019) – Official Trailer – Paramount Pictures ( 720 X 1280 )
+-Deadpool _ Teaser Trailer Oficial _ Doblado ( 720 X 1280 )
+-Dragon Ball Super_ Broly - Tráiler (Sub. Español) ( 720 X 1280 )
+-Dragon Ball Z La Resurrección de Freezer _ Trailer Doblado al Español (HD) ( 720 X 1280 )
+-DRAGON BALL Z_ LA BATALLA DE LOS DIOSES ( 720 X 1280 )
+-EL CONJURO 2 - Trailer 2 (Doblado) - Oficial Warner Bros. Pictures ( 720 X 1280 )
+-El día que vendrá - Trailer español (HD) ( 720 X 1280 )
+-Guardianes de la Galaxia tráiler  -- Oficial (Doblado) ( 800 X 1920 )
+-Hombre al agua - Tráiler Oficial ( 720 X 1280 )
+-LA CUMBRE ESCARLATA - Tráiler Internacional HD ( 720 X 1280 )
+-LA LLORONA Tráiler Español DOBLADO (Terror, 2019) ( 720 X 1280 )
+-Los Vengadores de Marvel _ Tráiler Oficial en Español _ HD ( 690 X 1280 )
+-Mamma Mia!2_ Una y otra vez (2018) Primer Tráiler Oficial Español ( 720 X 1280 )
+-Mi Primera Boda (Trailer) ( 360 X 640 )
+-POR SIEMPRE MÍA (FOREVER MY GIRL) (TRÁILER OFICIAL) (SIN SUBTÍTULOS) (1080P HD) ( 720 X 1280 )
+-Que Pena Tu Boda _ Trailer Oficial Español _ FULL HD _ ( 720 X 1280 )
+-Sexy Por Accidente (I Feel Pretty) - Trailer Español Latino 2018 ( 720 X 1280 )
+-Trailer de _Agua para elefantes_ ( 720 X 1280 )
+-Vida oculta - Trailer español (HD) ( 720 X 1280 )
+-Viuda Negra (2020) Marvel Tráiler Oficial Español ( 720 X 1280 )
+
+
+estas mismas deveran ser incluidas en la carpeta movies.
